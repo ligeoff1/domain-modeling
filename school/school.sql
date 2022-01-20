@@ -16,4 +16,12 @@ CREATE TABLE students (
 
 -- Create the rest of the tables
 
+CREATE TABLE enrollments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  student_id INTEGER, 
+  seats INTEGER,
+  semester TEXT,
+  time TEXT,
+  section_number TEXT
+);
 
