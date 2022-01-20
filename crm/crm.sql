@@ -4,6 +4,12 @@
 
 -- CREATE TABLES
 
+DROP TABLE IF EXISTS contacts;
+DROP TABLE IF EXISTS interactions;
+DROP TABLE IF EXISTS companies;
+DROP TABLE IF EXISTS industries;
+DROP TABLE IF EXISTS salespeople;
+
 CREATE TABLE contacts (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   first_name TEXT,
